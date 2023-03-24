@@ -10,7 +10,7 @@ public class BotConfig {
 
 	
     @Value("${token}")
-    private String token = "MTA4ODY5NTEyMjU5OTg4MjgyNA.GfPpil.XwQJGshHpzM_ZnjcNuKDXnIJyTl582cdlmKIxc";
+    private String token = "";
 
     @Bean
     public GatewayDiscordClient gatewayDiscordClient() {
